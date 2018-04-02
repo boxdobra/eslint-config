@@ -46,7 +46,7 @@
       "no-shadow-restricted-names": 2,
       "no-extra-bind": 2,
       "semi": 2,
-      "new-cap": 2,
+      "new-cap": [2, { "capIsNew": false }],
       "wrap-iife": [2, "any"],
       "comma-style": [1, "last"],
       "no-mixed-spaces-and-tabs": 1,
@@ -92,9 +92,6 @@
       "space-before-blocks": 1,
       "no-spaced-func": 1,
       "space-before-function-paren": [1, "never"],
-      "brace-style": 1,
-      "id-match": [1, "^([$_A-Za-z][a-zA-Z0-9]{0,31}|[A-Z][A-Z0-9_]{2,31})$", {
-         "properties": true
-      }]
+      "brace-style": 1
    }
 }

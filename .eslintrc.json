@@ -64,7 +64,8 @@
       "lines-around-comment": [1, {
          "beforeBlockComment": true,
          "beforeLineComment": true,
-         "allowBlockStart": true
+         "allowBlockStart": true,
+         "allowObjectStart": true
       }],
       "new-parens": 1,
       "eol-last": 1,
